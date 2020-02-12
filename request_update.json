@@ -1,0 +1,316 @@
+{
+  "timestamp": 1581477692940,
+  "webhookEvent": "jira:issue_updated",
+  "issue_event_type_name": "issue_updated",
+  "user": {
+    "self": "http://jira.datapipeline.com/rest/api/2/user?username=lvpeng",
+    "name": "lvpeng",
+    "key": "lvpeng",
+    "emailAddress": "lvpeng@datapipeline.com",
+    "avatarUrls": {
+      "48x48": "http://jira.datapipeline.com/secure/useravatar?avatarId=10346",
+      "24x24": "http://jira.datapipeline.com/secure/useravatar?size=small&avatarId=10346",
+      "16x16": "http://jira.datapipeline.com/secure/useravatar?size=xsmall&avatarId=10346",
+      "32x32": "http://jira.datapipeline.com/secure/useravatar?size=medium&avatarId=10346"
+    },
+    "displayName": "吕鹏",
+    "active": true,
+    "timeZone": "Asia/Shanghai"
+  },
+  "issue": {
+    "id": "14433",
+    "self": "http://jira.datapipeline.com/rest/api/2/issue/14433",
+    "key": "SH-167",
+    "fields": {
+      "issuetype": {
+        "self": "http://jira.datapipeline.com/rest/api/2/issuetype/10207",
+        "id": "10207",
+        "description": "客户出现的问题需要创建工单。",
+        "iconUrl": "http://jira.datapipeline.com/secure/viewavatar?size=xsmall&avatarId=10309&avatarType=issuetype",
+        "name": "售后工单",
+        "subtask": false,
+        "avatarId": 10309
+      },
+      "timespent": null,
+      "project": {
+        "self": "http://jira.datapipeline.com/rest/api/2/project/10305",
+        "id": "10305",
+        "key": "SH",
+        "name": "售后服务工单系统",
+        "avatarUrls": {
+          "48x48": "http://jira.datapipeline.com/secure/projectavatar?pid=10305&avatarId=10208",
+          "24x24": "http://jira.datapipeline.com/secure/projectavatar?size=small&pid=10305&avatarId=10208",
+          "16x16": "http://jira.datapipeline.com/secure/projectavatar?size=xsmall&pid=10305&avatarId=10208",
+          "32x32": "http://jira.datapipeline.com/secure/projectavatar?size=medium&pid=10305&avatarId=10208"
+        }
+      },
+      "aggregatetimespent": null,
+      "resolution": null,
+      "customfield_10510": "2020-02-05",
+      "customfield_10105": "0|i00osv:",
+      "customfield_10505": {
+        "self": "http://jira.datapipeline.com/rest/api/2/customFieldOption/10344",
+        "value": "已签约",
+        "id": "10344"
+      },
+      "resolutiondate": null,
+      "customfield_10507": "中油瑞飞",
+      "customfield_10508": [
+        "3节点生产"
+      ],
+      "customfield_10509": {
+        "self": "http://jira.datapipeline.com/rest/api/2/version/10517",
+        "id": "10517",
+        "description": "",
+        "name": "2.6.0",
+        "archived": false,
+        "released": true
+      },
+      "workratio": -1,
+      "lastViewed": "2020-02-12T11:20:40.921+0800",
+      "watches": {
+        "self": "http://jira.datapipeline.com/rest/api/2/issue/SH-167/watchers",
+        "watchCount": 1,
+        "isWatching": false
+      },
+      "created": "2020-02-05T11:10:21.000+0800",
+      "priority": {
+        "self": "http://jira.datapipeline.com/rest/api/2/priority/3",
+        "iconUrl": "http://jira.datapipeline.com/images/icons/priorities/3.png",
+        "name": "P3",
+        "id": "3"
+      },
+      "customfield_10100": null,
+      "customfield_10101": null,
+      "customfield_10301": null,
+      "timeestimate": null,
+      "aggregatetimeoriginalestimate": null,
+      "issuelinks": [],
+      "assignee": {
+        "self": "http://jira.datapipeline.com/rest/api/2/user?username=langongru",
+        "name": "langongru",
+        "key": "langongru",
+        "emailAddress": "langongru@datapipeline.com",
+        "avatarUrls": {
+          "48x48": "http://jira.datapipeline.com/secure/useravatar?avatarId=10335",
+          "24x24": "http://jira.datapipeline.com/secure/useravatar?size=small&avatarId=10335",
+          "16x16": "http://jira.datapipeline.com/secure/useravatar?size=xsmall&avatarId=10335",
+          "32x32": "http://jira.datapipeline.com/secure/useravatar?size=medium&avatarId=10335"
+        },
+        "displayName": "蓝功儒",
+        "active": true,
+        "timeZone": "Asia/Shanghai"
+      },
+      "updated": "2020-02-12T11:21:32.000+0800",
+      "status": {
+        "self": "http://jira.datapipeline.com/rest/api/2/status/10202",
+        "description": "",
+        "iconUrl": "http://jira.datapipeline.com/images/icons/status_generic.gif",
+        "name": "Under Review",
+        "id": "10202",
+        "statusCategory": {
+          "self": "http://jira.datapipeline.com/rest/api/2/statuscategory/4",
+          "id": 4,
+          "key": "indeterminate",
+          "colorName": "yellow",
+          "name": "处理中"
+        }
+      },
+      "components": [],
+      "timeoriginalestimate": null,
+      "customfield_10530": {
+        "self": "http://jira.datapipeline.com/rest/api/2/customFieldOption/10389",
+        "value": "生产任务",
+        "id": "10389"
+      },
+      "customfield_10531": null,
+      "customfield_10522": {
+        "self": "http://jira.datapipeline.com/rest/api/2/customFieldOption/10377",
+        "value": "无行动",
+        "id": "10377"
+      },
+      "customfield_10523": null,
+      "customfield_10600": {
+        "self": "http://jira.datapipeline.com/rest/api/2/customFieldOption/10400",
+        "value": "是",
+        "id": "10400"
+      },
+      "customfield_10601": {
+        "self": "http://jira.datapipeline.com/rest/api/2/customFieldOption/10403",
+        "value": "BUG",
+        "id": "10403"
+      },
+      "customfield_10525": null,
+      "attachment": [],
+      "aggregatetimeestimate": null,
+      "customfield_10527": {
+        "self": "http://jira.datapipeline.com/rest/api/2/customFieldOption/10382",
+        "value": "华北",
+        "id": "10382"
+      },
+      "summary": "【中油】【web界面显示source有读取，但是sink端无写入】",
+      "creator": {
+        "self": "http://jira.datapipeline.com/rest/api/2/user?username=zhuxiaoxu",
+        "name": "zhuxiaoxu",
+        "key": "zhuxiaoxu",
+        "emailAddress": "zhuxiaoxu@datapipeline.com",
+        "avatarUrls": {
+          "48x48": "http://jira.datapipeline.com/secure/useravatar?avatarId=10338",
+          "24x24": "http://jira.datapipeline.com/secure/useravatar?size=small&avatarId=10338",
+          "16x16": "http://jira.datapipeline.com/secure/useravatar?size=xsmall&avatarId=10338",
+          "32x32": "http://jira.datapipeline.com/secure/useravatar?size=medium&avatarId=10338"
+        },
+        "displayName": "朱晓旭",
+        "active": true,
+        "timeZone": "Asia/Shanghai"
+      },
+      "subtasks": [],
+      "reporter": {
+        "self": "http://jira.datapipeline.com/rest/api/2/user?username=zhuxiaoxu",
+        "name": "zhuxiaoxu",
+        "key": "zhuxiaoxu",
+        "emailAddress": "zhuxiaoxu@datapipeline.com",
+        "avatarUrls": {
+          "48x48": "http://jira.datapipeline.com/secure/useravatar?avatarId=10338",
+          "24x24": "http://jira.datapipeline.com/secure/useravatar?size=small&avatarId=10338",
+          "16x16": "http://jira.datapipeline.com/secure/useravatar?size=xsmall&avatarId=10338",
+          "32x32": "http://jira.datapipeline.com/secure/useravatar?size=medium&avatarId=10338"
+        },
+        "displayName": "朱晓旭",
+        "active": true,
+        "timeZone": "Asia/Shanghai"
+      },
+      "customfield_10000": "{summaryBean=com.atlassian.jira.plugin.devstatus.rest.SummaryBean@5b24ac6c[summary={pullrequest=com.atlassian.jira.plugin.devstatus.rest.SummaryItemBean@372b57cf[overall=PullRequestOverallBean{stateCount=0, state='OPEN', details=PullRequestOverallDetails{openCount=0, mergedCount=0, declinedCount=0}},byInstanceType={}], build=com.atlassian.jira.plugin.devstatus.rest.SummaryItemBean@3fec1d7a[overall=com.atlassian.jira.plugin.devstatus.summary.beans.BuildOverallBean@5214a067[failedBuildCount=0,successfulBuildCount=0,unknownBuildCount=0,count=0,lastUpdated=<null>,lastUpdatedTimestamp=<null>],byInstanceType={}], review=com.atlassian.jira.plugin.devstatus.rest.SummaryItemBean@1e435b19[overall=com.atlassian.jira.plugin.devstatus.summary.beans.ReviewsOverallBean@738cf4af[stateCount=0,state=<null>,dueDate=<null>,overDue=false,count=0,lastUpdated=<null>,lastUpdatedTimestamp=<null>],byInstanceType={}], deployment-environment=com.atlassian.jira.plugin.devstatus.rest.SummaryItemBean@2cd43069[overall=com.atlassian.jira.plugin.devstatus.summary.beans.DeploymentOverallBean@5b34ba0c[topEnvironments=[],showProjects=false,successfulCount=0,count=0,lastUpdated=<null>,lastUpdatedTimestamp=<null>],byInstanceType={}], repository=com.atlassian.jira.plugin.devstatus.rest.SummaryItemBean@5f2ba9e0[overall=com.atlassian.jira.plugin.devstatus.summary.beans.CommitOverallBean@4b160726[count=0,lastUpdated=<null>,lastUpdatedTimestamp=<null>],byInstanceType={}], branch=com.atlassian.jira.plugin.devstatus.rest.SummaryItemBean@46cc2155[overall=com.atlassian.jira.plugin.devstatus.summary.beans.BranchOverallBean@3856075a[count=0,lastUpdated=<null>,lastUpdatedTimestamp=<null>],byInstanceType={}]},errors=[],configErrors=[]], devSummaryJson={\"cachedValue\":{\"errors\":[],\"configErrors\":[],\"summary\":{\"pullrequest\":{\"overall\":{\"count\":0,\"lastUpdated\":null,\"stateCount\":0,\"state\":\"OPEN\",\"details\":{\"openCount\":0,\"mergedCount\":0,\"declinedCount\":0,\"total\":0},\"open\":true},\"byInstanceType\":{}},\"build\":{\"overall\":{\"count\":0,\"lastUpdated\":null,\"failedBuildCount\":0,\"successfulBuildCount\":0,\"unknownBuildCount\":0},\"byInstanceType\":{}},\"review\":{\"overall\":{\"count\":0,\"lastUpdated\":null,\"stateCount\":0,\"state\":null,\"dueDate\":null,\"overDue\":false,\"completed\":false},\"byInstanceType\":{}},\"deployment-environment\":{\"overall\":{\"count\":0,\"lastUpdated\":null,\"topEnvironments\":[],\"showProjects\":false,\"successfulCount\":0},\"byInstanceType\":{}},\"repository\":{\"overall\":{\"count\":0,\"lastUpdated\":null},\"byInstanceType\":{}},\"branch\":{\"overall\":{\"count\":0,\"lastUpdated\":null},\"byInstanceType\":{}}}},\"isStale\":false}}",
+      "aggregateprogress": {
+        "progress": 0,
+        "total": 0
+      },
+      "customfield_10400": null,
+      "environment": null,
+      "customfield_10513": null,
+      "customfield_10514": {
+        "self": "http://jira.datapipeline.com/rest/api/2/customFieldOption/10356",
+        "value": "使用问题",
+        "id": "10356"
+      },
+      "customfield_10515": "中油348任务source有读入，sink无写入情况， kafka-consumer-groups --describe查询相应group显示为rebalencing，重启zk2，kafka2，sinkdp后348任务还是显示连接kafka2有问题，相应group还是显示为rebalencing；但由于客户vpn连接问题，暂时无法进一步远程排查，可否建议客户复制任务重新跑试试（其他任务均显示正常）",
+      "customfield_10516": "暂时建议客户复制任务重新跑，等到客户vpn连接正常后继续排查",
+      "customfield_10517": null,
+      "customfield_10518": {
+        "self": "http://jira.datapipeline.com/rest/api/2/customFieldOption/10363",
+        "value": "技术修复",
+        "id": "10363"
+      },
+      "customfield_10519": null,
+      "progress": {
+        "progress": 0,
+        "total": 0
+      },
+      "comment": {
+        "comments": [
+          {
+            "self": "http://jira.datapipeline.com/rest/api/2/issue/14433/comment/12963",
+            "id": "12963",
+            "author": {
+              "self": "http://jira.datapipeline.com/rest/api/2/user?username=zhuxiaoxu",
+              "name": "zhuxiaoxu",
+              "key": "zhuxiaoxu",
+              "emailAddress": "zhuxiaoxu@datapipeline.com",
+              "avatarUrls": {
+                "48x48": "http://jira.datapipeline.com/secure/useravatar?avatarId=10338",
+                "24x24": "http://jira.datapipeline.com/secure/useravatar?size=small&avatarId=10338",
+                "16x16": "http://jira.datapipeline.com/secure/useravatar?size=xsmall&avatarId=10338",
+                "32x32": "http://jira.datapipeline.com/secure/useravatar?size=medium&avatarId=10338"
+              },
+              "displayName": "朱晓旭",
+              "active": true,
+              "timeZone": "Asia/Shanghai"
+            },
+            "body": "客户复制任务重新跑后正常",
+            "updateAuthor": {
+              "self": "http://jira.datapipeline.com/rest/api/2/user?username=zhuxiaoxu",
+              "name": "zhuxiaoxu",
+              "key": "zhuxiaoxu",
+              "emailAddress": "zhuxiaoxu@datapipeline.com",
+              "avatarUrls": {
+                "48x48": "http://jira.datapipeline.com/secure/useravatar?avatarId=10338",
+                "24x24": "http://jira.datapipeline.com/secure/useravatar?size=small&avatarId=10338",
+                "16x16": "http://jira.datapipeline.com/secure/useravatar?size=xsmall&avatarId=10338",
+                "32x32": "http://jira.datapipeline.com/secure/useravatar?size=medium&avatarId=10338"
+              },
+              "displayName": "朱晓旭",
+              "active": true,
+              "timeZone": "Asia/Shanghai"
+            },
+            "created": "2020-02-06T09:08:58.000+0800",
+            "updated": "2020-02-06T09:08:58.000+0800"
+          },
+          {
+            "self": "http://jira.datapipeline.com/rest/api/2/issue/14433/comment/12964",
+            "id": "12964",
+            "author": {
+              "self": "http://jira.datapipeline.com/rest/api/2/user?username=zhuxiaoxu",
+              "name": "zhuxiaoxu",
+              "key": "zhuxiaoxu",
+              "emailAddress": "zhuxiaoxu@datapipeline.com",
+              "avatarUrls": {
+                "48x48": "http://jira.datapipeline.com/secure/useravatar?avatarId=10338",
+                "24x24": "http://jira.datapipeline.com/secure/useravatar?size=small&avatarId=10338",
+                "16x16": "http://jira.datapipeline.com/secure/useravatar?size=xsmall&avatarId=10338",
+                "32x32": "http://jira.datapipeline.com/secure/useravatar?size=medium&avatarId=10338"
+              },
+              "displayName": "朱晓旭",
+              "active": true,
+              "timeZone": "Asia/Shanghai"
+            },
+            "body": "经过排查发现，并不是zk2和kafka2连接不上的问题，其他任务都能正常运行；重启zk2，kafka2，sinkdp后依然报kafka2连接不上，但是影响范围只有这一个任务，且复制重跑后正常\r\n\r\n2020-02-05 03:19:02,035 [INFO ] [Consumer clientId=consumer-501, groupId=connect-dp-orcl-connector-dptask_348_36] Group coordinator kafka2:9092 (id: 2147483645 rack: null) is unavailable or invalid, will attempt rediscovery [pool-8-thread-495][AbstractCoordinator.java:727]\r\n8d82c816a5d5.log.2020-02-05-03:2020-02-05 03:19:02,034 [INFO ] [Consumer clientId=consumer-503, groupId=connect-dp-orcl-connector-dptask_348_36] Discovered group coordinator kafka2:9092 (id: 2147483645 rack: null) [pool-8-thread-496][AbstractCoordinator.java:675]\r\n\r\n再结合写入配置表结构刷新慢的问题，感觉是webservice的问题",
+            "updateAuthor": {
+              "self": "http://jira.datapipeline.com/rest/api/2/user?username=zhuxiaoxu",
+              "name": "zhuxiaoxu",
+              "key": "zhuxiaoxu",
+              "emailAddress": "zhuxiaoxu@datapipeline.com",
+              "avatarUrls": {
+                "48x48": "http://jira.datapipeline.com/secure/useravatar?avatarId=10338",
+                "24x24": "http://jira.datapipeline.com/secure/useravatar?size=small&avatarId=10338",
+                "16x16": "http://jira.datapipeline.com/secure/useravatar?size=xsmall&avatarId=10338",
+                "32x32": "http://jira.datapipeline.com/secure/useravatar?size=medium&avatarId=10338"
+              },
+              "displayName": "朱晓旭",
+              "active": true,
+              "timeZone": "Asia/Shanghai"
+            },
+            "created": "2020-02-06T09:39:51.000+0800",
+            "updated": "2020-02-06T09:39:51.000+0800"
+          }
+        ],
+        "maxResults": 2,
+        "total": 2,
+        "startAt": 0
+      },
+      "votes": {
+        "self": "http://jira.datapipeline.com/rest/api/2/issue/SH-167/votes",
+        "votes": 0,
+        "hasVoted": false
+      },
+      "worklog": {
+        "startAt": 0,
+        "maxResults": 20,
+        "total": 0,
+        "worklogs": []
+      }
+    }
+  },
+  "changelog": {
+    "id": "37225",
+    "items": [
+      {
+        "field": "问题原因描述",
+        "fieldtype": "custom",
+        "from": null,
+        "fromString": "中油348任务source有读入，sink无写入情况， kafka-consumer-groups --describe查询相应group显示为rebalencing，重启zk2，kafka2，sinkdp后348任务还是显示连接kafka2有问题，相应group还是显示为rebalencing；但由于客户vpn连接问题，暂时无法进一步远程排查，可否建议客户复制任务重新跑试试（其他任务均显示正常）1",
+        "to": null,
+        "toString": "中油348任务source有读入，sink无写入情况， kafka-consumer-groups --describe查询相应group显示为rebalencing，重启zk2，kafka2，sinkdp后348任务还是显示连接kafka2有问题，相应group还是显示为rebalencing；但由于客户vpn连接问题，暂时无法进一步远程排查，可否建议客户复制任务重新跑试试（其他任务均显示正常）"
+      }
+    ]
+  }
+}

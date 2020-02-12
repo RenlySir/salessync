@@ -10,6 +10,7 @@ def ping():
 
 @app.route('/test', methods=['get', 'post'])
 def test():
+    print(request.data)
     return request.data
 
 
