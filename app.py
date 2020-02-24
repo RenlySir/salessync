@@ -20,8 +20,8 @@ def ping():
 
 @app.route('/test', methods=['get', 'post'])
 def test():
-    r = getCustomer_id('喜茶')
-    return r
+    issues = all_issue_query()
+    return issues
 
 
 def doPost(_url, _data):
@@ -80,7 +80,13 @@ def getJiraField(data):
     issuelinks = data_dict['issue']['issuelinks']                       # 对应的jira链接
     statusCategory = data_dict['issue']['statusCategory']['name']       # 当前工单所处状态
     taskCategory = data_dict['issue']['customfield_10530']['value']     # 任务类型（生产&测试）
-
+    updated = data_dict['issue']['updated']                             # 更新时间
+    status = data_dict['issue']['status']['name']                       # 工单当前状态
+    isWorkTime = data_dict['issue']['customfield_10600']['value']       # 是否为工作时间
+    title = data_dict['issue']['summary']                               # 工单标题
+    issue_descp = data_dict['issue']['customfield_10515']               # 问题描述
+    remark01 = data_dict['comment']['comments']                         # 备注
+    body = data_dict['issue']['body']                                   # 解决描述
 
 
 # CRM对象接口-自定义对象-新增对象
@@ -120,6 +126,39 @@ def createIssue(data):
     info = doPost(url, data)
     return info
 
+# CRM对象接口-自定义对象-查询对象数据列表 --- 查询所有工单
+def all_issue_query():
+    doLog("query all issue")
+    url = 'https://open.fxiaoke.com/cgi/crm/custom/data/query'
+    corpAccessToken, corpId = getCorpAccessToken()
+    payload = {
+        "corpAccessToken": "E1F4D857FA579BD8C1A1A011249ECDBA",
+        "corpId": "FSCID_6F77ADFA946108AECFE66A93FFC9E1F2",
+        "currentOpenUserId": "FSUID_626246E2FF28FE8757EA4CF3F88C9B40",
+        "data": {
+            "dataObjectApiName": "object_Yhf2o__c",
+            "search_query_info": {
+                "offset": 0,
+                "limit": 100
+            }
+        }
+    }
+    data = json.dumps(payload)
+    all_issues = doPost(url, data)
+    return all_issues
+
+
+# CRM对象接口-自定义对象-更新对象数据 --- 更新工单
+def updateIssueById(_id):
+    doLog("query all issue")
+    url = 'https://open.fxiaoke.com/cgi/crm/custom/data/update'
+    corpAccessToken, corpId = getCorpAccessToken()
+    payload = {
+        "_id":_id
+    }
+    data = json.dumps(payload)
+    backCodes = doPost(url, data)
+    return backCodes
 
 @app.route('/hook', methods=['get', 'post'])
 def hook():
