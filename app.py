@@ -88,7 +88,6 @@ def getJiraField(data):
     remark01 = data_dict['comment']['comments']                         # 备注
     body = data_dict['issue']['body']                                   # 解决描述
 
-
 # CRM对象接口-自定义对象-新增对象
 def createIssue(data):
     doLog("create issue")
