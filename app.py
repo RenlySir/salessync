@@ -96,7 +96,6 @@ def createIssue(data):
     corpAccessToken, corpId = getCorpAccessToken()
     customer_name = data['customer']
     customer_id = getCustomer_id(customer_name)
-
     payload = {
         "corpAccessToken": corpAccessToken,
         "corpId": corpId,
